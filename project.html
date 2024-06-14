@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .mainbox{
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              height: 550px;
+            }
+            .textbox{
+                margin-top: 40px;
+                position:relative;
+            }
+    
+            .text{
+                font-size: 16px;
+                width: 500px;
+                height: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 60px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                border: none;
+                border-radius: 200px;
+                box-shadow: 0px 0px 3px black;
+
+
+            }
+            .shortcutbox{
+                margin-top: 40px;
+                margin-left: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               
+            }
+            .shortcutmainbox{
+                display: flex;
+                flex-direction: row;
+            }
+            .plus{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                font-size: 26px;
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                border: none;
+                background-color: rgb(213, 232, 239);
+                padding: 6px;
+            }
+            .plus2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                border: none;
+                background-color:rgb(146, 178, 91);
+                padding: 6px;
+
+            }
+            .para{
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: gray;
+                
+            }
+            .headbox{
+              
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                height: 50px;
+                
+                
+            }
+
+            .mailbox{
+                width: 250px;
+                height: 50px;
+                position: fixed;
+                right: 0;
+                top: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .para2{
+                display: inline-block;
+                color: gray;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin-left: 20px;
+            }
+            .dot{
+                margin-bottom: -10px;
+                margin-top: -15px;
+                font-weight: bold;
+                font-size: 18px;
+                color: rgb(56, 54, 54);
+                
+            }
+            .dotbox{
+                display: inline-block;
+                margin-left: 20px;
+            }
+            .channelimg{
+                width: 30px;
+                border-radius: 15px;
+               
+                
+            }
+            .channelimgbox{
+                display: inline-block;
+                margin-left: 20px;
+                margin-top: 8px;
+
+                
+            }
+
+            .voice{
+                width: 20px;   
+                
+            }
+            .voicebox{
+                display: inline-block;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+                
+                
+            
+            }
+            .mirrorbox{
+                position: absolute;
+                top: 12px;
+                left: 20px;
+
+
+            }
+            .bottombox{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                height: 50px;
+              
+              
+                
+
+            }
+            .chromebox{
+                position: absolute;
+                height:50px ;
+                width: 200px;
+                position: fixed;
+                right: 0;
+
+            }
+            .chrome{
+                background-color: rgb(155, 192, 206);
+                border: none;
+                padding: 8px;
+                border-radius: 60px;
+                font-size: 14px;
+                margin-top: 10px;
+                margin-left: 40px;
+                color: rgb(122, 119, 119);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainbox">
+            <div class="headbox">
+                <div class="mailbox">
+                <p class="para2">
+                    Gmail
+                </p>
+                <p class="para2">
+                    Images
+                </p>
+                <div class="dotbox">
+                    <p class="dot">
+                        ...
+                    </p>
+                    <p class="dot">
+                        ...
+                    </p>
+                    <p class="dot">
+                        ...
+                    </p>
+                </div>
+                <div class="channelimgbox">
+                    <img class="channelimg" src="channel.webp">
+                </div>
+                 
+                
+                </div>
+            </div>
+              <div class="googlebox">
+                <img class="img" src="google_logo.svg">
+              </div>
+              <div class="textbox">
+                <div class="mirrorbox">
+                    <img class="voice" src="search.svg">
+
+                </div>
+
+                <input class="text" type="text" placeholder="Search Google or type a URL">
+                <div class="voicebox">
+                    <img class="voice" src="voice-search-icon.svg">
+
+                </div>
+
+              </div>
+              <div class="shortcutmainbox">
+                <div class="shortcutbox">
+                    <button class="plus2">
+                        G
+                    </button>
+                    <p class="para">
+                        mail
+                    </p>
+    
+                  </div>
+                  <div class="shortcutbox">
+                    <button class="plus">
+                        +
+                    </button>
+                    <p class="para">
+                        Add shortcut
+                    </p>
+    
+                  </div>
+              </div>
+
+
+
+              <div class="bottombox">
+                  <div class="chromebox">
+                      <button class="chrome">
+                        ! Customize Chrome
+                      </button>
+                  </div>
+                
+                </div>
+            </div>
+        
+       
+        </div>
+    </body>
+</html>
